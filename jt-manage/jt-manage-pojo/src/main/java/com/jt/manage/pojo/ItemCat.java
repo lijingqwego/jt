@@ -60,5 +60,12 @@ public class ItemCat extends BasePojo{
 		this.isParent = isParent;
 	}
 	
-	
+	//为EasyUI.tree组件
+	public String getText(){
+		return this.name;
+	}
+
+	public String getState(){
+		return this.isParent ? "closed" : "open";
+	}
 }
