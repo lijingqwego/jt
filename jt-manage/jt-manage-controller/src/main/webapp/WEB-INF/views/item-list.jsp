@@ -20,9 +20,10 @@
 <div id="itemEditWindow" class="easyui-window" title="编辑商品" data-options="modal:true,closed:true,iconCls:'icon-save',href:'/page/item-edit'" style="width:80%;height:80%;padding:10px;">
 </div>
 <script>
-
+	//获取用户选择的所有的id
     function getSelectionsIds(){
     	var itemList = $("#itemList");
+    	//获取列表中选中所有的元素，多行数据
     	var sels = itemList.datagrid("getSelections");
     	var ids = [];
     	for(var i in sels){
@@ -42,7 +43,7 @@
         text:'编辑',
         iconCls:'icon-edit',
         handler:function(){
-        	var ids = getSelectionsIds();
+        	var ids = getSelectionsIds();	//获取选择的所有的id值
         	if(ids.length == 0){
         		$.messager.alert('提示','必须选择一个商品才能编辑!');
         		return ;
@@ -57,6 +58,7 @@
         			//回显数据
         			var data = $("#itemList").datagrid("getSelections")[0];
         			data.priceView = KindEditorUtil.formatPrice(data.price);
+        			//.form jQuery，把js数据放入表单中，放入对应的框中
         			$("#itemeEditForm").form("load",data);
         			
         			// 加载商品描述
@@ -116,6 +118,7 @@
         	}
         	$.messager.confirm('确认','确定删除ID为 '+ids+' 的商品吗？',function(r){
         	    if (r){
+					alert(ids);
         	    	var params = {"ids":ids};
                 	$.post("/item/delete",params, function(data){
             			if(data.status == 200){

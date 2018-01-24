@@ -106,7 +106,7 @@ var TT = KindEditorUtil = {		//相当于java中定义的工具类，里面提供
     		}
     		_ele.unbind('click').click(function(){
     			$("<div>").css({padding:"5px"}).html("<ul>")
-    			.window({
+    			.window({ 	//EasyUI.window
     				width:'500',
     			    height:"450",
     			    modal:true,
