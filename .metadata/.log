@@ -1,0 +1,2565 @@
+!SESSION 2018-06-02 13:40:56.897 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_31
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-02 13:43:19.895
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\lijing'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:45:51.802
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:45:51.879
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:45:52.008
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:45:52.063
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:45:52.128
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:45:52.365
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:45:52.384
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:45:54.660
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-06-02 13:46:00.827
+!MESSAGE Unable to configure jt-manage-controller
+!STACK 0
+org.eclipse.m2e.wtp.MarkedException: Unable to configure jt-manage-controller
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:98)
+	at org.eclipse.m2e.wtp.WTPProjectConfigurator.configure(WTPProjectConfigurator.java:68)
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:501)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:494)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:281)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$1.call(ProjectConfigurationManager.java:168)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$1.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:136)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob$1.doCreateMavenProjects(ImportMavenProjectsJob.java:68)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:62)
+	at org.eclipse.m2e.core.ui.internal.wizards.ImportMavenProjectsJob.runInWorkspace(ImportMavenProjectsJob.java:77)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have not been satisfied.
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modifyInternal(FacetedProject.java:363)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.mergeChangesInternal(FacetedProject.java:1181)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.access$2(FacetedProject.java:1117)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:324)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:339)
+	at org.eclipse.m2e.wtp.WebProjectConfiguratorDelegate.configure(WebProjectConfiguratorDelegate.java:136)
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:94)
+	... 20 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:46:01.634
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:46:03.540
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:46:03.554
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:46:04.975
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:46:04.985
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:46:05.266
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:46:05.280
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:46:05.291
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:46:05.598
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:46:05.617
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:46:05.636
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:46:06.084
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:46:06.100
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:46:06.118
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:46:12.147
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:46:12.162
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:46:12.180
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:46:12.438
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:46:13.005
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:46:13.017
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:46:13.234
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:46:13.246
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:46:13.700
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:46:13.716
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:46:13.743
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:46:14.567
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:46:14.582
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:46:14.600
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:46:15.126
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:46:15.144
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 13:46:15.173
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2018-06-02 13:53:02.016
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to connect to repository http://download.eclipse.org/webtools/downloads/drops/R3.8.0/R-3.8.0-20160608130753/repository/content.xml
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:243)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.getLocalFile(SimpleMetadataRepositoryFactory.java:66)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:88)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at sun.reflect.GeneratedMethodAccessor81.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:396)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:199)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:463)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at sun.reflect.GeneratedMethodAccessor81.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:396)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:199)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:463)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:117)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2018-06-02 13:53:02.019
+!MESSAGE Unable to connect to repository http://download.eclipse.org/webtools/downloads/drops/R3.8.0/R-3.8.0-20160608130753/repository/content.xml
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:117)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-06-02 13:53:27.551
+!MESSAGE Connection to http://download.eclipse.org/webtools/downloads/drops/R3.8.1/R-3.8.1-20160912100321/repository/content.jar failed on Connection timed out: connect. Retry attempt 0 started
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient4.ECFHttpClientProtocolSocketFactory.connectSocket(ECFHttpClientProtocolSocketFactory.java:86)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2018-06-02 13:59:25.052
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at http://download.eclipse.org/webtools/downloads/drops/R3.8.1/R-3.8.1-20160912100321/repository/content.jar.
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:428)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:259)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.getLocalFile(SimpleMetadataRepositoryFactory.java:66)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:88)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at sun.reflect.GeneratedMethodAccessor81.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:396)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:199)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:463)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at sun.reflect.GeneratedMethodAccessor81.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:396)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:199)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:463)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.read(AbstractSessionInputBuffer.java:198)
+	at org.apache.http.impl.io.ContentLengthInputStream.read(ContentLengthInputStream.java:178)
+	at org.apache.http.conn.EofSensorInputStream.read(EofSensorInputStream.java:137)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer$1.performFileTransfer(AbstractRetrieveFileTransfer.java:178)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2018-06-02 13:59:25.054
+!MESSAGE Unable to read repository at http://download.eclipse.org/webtools/downloads/drops/R3.8.1/R-3.8.1-20160912100321/repository/content.jar.
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.read(AbstractSessionInputBuffer.java:198)
+	at org.apache.http.impl.io.ContentLengthInputStream.read(ContentLengthInputStream.java:178)
+	at org.apache.http.conn.EofSensorInputStream.read(EofSensorInputStream.java:137)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer$1.performFileTransfer(AbstractRetrieveFileTransfer.java:178)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 14:24:33.407
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 14:24:33.423
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 14:24:33.442
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 22:10:23.058
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 22:10:23.438
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 22:10:23.454
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 22:10:23.622
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 22:10:24.025
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 22:10:24.037
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 22:10:24.050
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 22:10:24.721
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 22:10:24.733
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 22:10:54.893
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 22:10:54.903
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-02 22:10:54.924
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+!SESSION 2018-06-03 21:22:34.776 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_31
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-03 21:23:08.148
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\lijing'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:23:09.594
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:23:09.759
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:23:09.909
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:24:13.178
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:26:10.709
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:26:10.730
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-03 21:26:44.588
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-03 21:26:44.589
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-03 21:26:44.720
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-03 21:26:44.721
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:34:23.511
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:34:23.529
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:34:23.549
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:34:23.576
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:34:23.591
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:34:23.635
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:34:23.663
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:34:23.675
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:34:23.692
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:34:23.739
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:34:23.751
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:40:14.400
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:40:14.413
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:40:43.194
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:40:43.212
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:40:43.256
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:40:43.282
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:40:43.296
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:40:43.313
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:40:43.335
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:40:43.349
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:40:43.386
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:40:43.420
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:40:43.435
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:52:38.024
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:52:38.038
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:55:40.613
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:55:40.623
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:55:40.635
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:55:40.653
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:55:40.665
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:55:40.677
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:55:40.701
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:55:40.715
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:55:40.728
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:55:40.742
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:55:40.753
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:55:56.765
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:55:56.787
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:55:57.036
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:55:57.049
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:55:57.065
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:57:18.251
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:57:18.263
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:57:18.277
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:57:18.292
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:57:18.301
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:57:18.309
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:57:18.328
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:57:18.342
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:57:18.353
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:57:18.372
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 21:57:18.381
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-06-03 22:11:23.153
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+com.sun.jdi.VMOutOfMemoryException
+	at org.eclipse.jdi.internal.MirrorImpl.defaultReplyErrorHandler(MirrorImpl.java:285)
+	at org.eclipse.jdi.internal.ThreadReferenceImpl.threadGroup(ThreadReferenceImpl.java:618)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.getUnderlyingThreadGroup(JDIThread.java:2229)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.determineIfSystemThread(JDIThread.java:490)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.initialize(JDIThread.java:287)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.<init>(JDIThread.java:267)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.newThread(JDIDebugTarget.java:652)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createThread(JDIDebugTarget.java:628)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget$ThreadStartHandler.handleEvent(JDIDebugTarget.java:2326)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.dispatch(EventDispatcher.java:152)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.access$0(EventDispatcher.java:100)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher$1.run(EventDispatcher.java:250)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:12:49.985
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:12:49.999
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:12:50.229
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:12:50.283
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:12:50.303
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:12:52.436
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:12:52.448
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:12:52.463
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:12:52.482
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:12:52.498
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:12:52.511
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:12:52.529
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:12:52.539
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:12:52.548
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:12:52.565
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:12:52.575
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:13:07.653
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:13:07.668
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:13:10.220
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:13:10.237
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:13:10.253
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:13:10.273
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:13:10.285
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:13:10.312
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:13:10.331
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:13:10.342
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:13:10.354
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:13:10.370
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:13:10.380
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:14:09.371
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:14:09.388
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:14:12.016
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:14:12.028
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:14:12.048
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:14:12.068
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:14:12.079
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:14:12.094
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:14:12.111
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:14:12.128
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:14:12.138
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:14:12.148
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:14:12.154
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:15:12.444
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:15:12.457
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:15:14.898
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:15:14.950
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:15:14.975
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:15:14.995
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:15:15.006
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:15:15.018
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:15:15.037
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:15:15.048
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:15:15.063
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:15:15.083
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:15:15.094
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:21:13.856
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:21:13.867
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:21:14.061
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:21:14.077
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:21:14.093
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:21:20.074
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:21:20.082
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:21:20.092
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:21:20.104
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:21:20.111
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:21:20.119
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:21:20.135
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:21:20.148
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:21:20.156
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:21:20.167
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:21:20.175
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:21:42.508
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:21:42.518
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:21:42.680
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:21:42.693
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:21:42.709
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:21:45.014
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:21:45.022
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:21:45.032
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:21:45.045
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:21:45.052
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:21:45.059
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:21:45.076
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:21:45.083
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:21:45.090
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:21:45.103
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:21:45.154
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:22:02.748
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:22:02.760
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:22:10.537
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:22:10.545
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:22:10.555
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:22:10.566
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:22:10.575
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:22:10.583
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:22:10.598
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:22:10.607
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:22:10.615
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:22:10.628
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:22:10.637
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:22:37.817
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:22:37.825
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:22:42.578
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:22:42.590
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:22:42.603
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:22:42.616
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:22:42.626
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:22:42.635
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:22:42.651
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:22:42.659
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:22:42.667
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:22:42.677
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:22:42.685
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:25:57.144
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:25:57.159
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:25:57.313
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:25:57.326
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:25:57.341
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:25:59.962
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:25:59.970
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:25:59.978
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:25:59.994
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:26:00.002
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:26:00.011
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:26:00.030
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:26:00.039
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:26:00.050
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:26:00.072
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:26:00.081
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:26:19.296
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:26:19.302
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:26:21.806
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:26:21.817
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:26:21.829
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:26:21.890
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:26:21.901
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:26:21.911
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:26:21.922
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:26:21.931
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:26:21.939
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:26:21.951
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:26:21.961
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:27:38.844
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:27:38.850
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:27:39.001
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:27:39.006
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:27:39.022
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:27:44.784
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:27:44.794
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:27:44.805
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:27:44.818
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:27:44.825
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:27:44.832
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:27:44.842
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:27:44.850
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:27:44.858
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:27:44.868
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:27:44.875
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:28:31.519
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:28:31.534
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:28:31.791
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:28:31.800
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:28:31.814
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:28:35.349
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:28:35.356
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:28:35.369
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:28:35.384
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:28:35.395
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:28:35.406
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:28:35.432
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:28:35.449
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:28:35.460
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:28:35.475
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:28:35.484
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:32:44.182
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:32:44.193
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:32:44.307
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:32:44.317
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:32:44.332
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:32:54.767
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:32:54.774
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:32:54.784
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:32:54.795
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:32:54.803
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:32:54.810
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:32:54.824
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:32:54.831
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:32:54.838
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:32:54.848
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:32:54.855
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:44:00.095
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:44:00.107
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:44:00.264
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:44:00.276
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:44:00.290
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:44:03.185
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:44:03.201
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:44:03.232
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:44:03.264
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:44:03.275
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:44:03.287
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:44:03.303
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:44:03.313
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:44:03.323
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:44:03.337
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:44:03.356
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:46:32.884
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:46:32.891
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:46:33.018
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:46:33.026
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:46:33.036
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:48:16.398
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:48:16.565
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:49:09.979
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:49:10.115
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:49:15.118
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:49:15.178
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:49:57.785
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:49:57.785
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:50:12.811
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:50:12.823
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:50:12.835
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:50:13.065
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:50:13.077
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:50:13.085
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:50:13.227
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:50:13.235
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:50:13.246
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:50:13.377
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:50:14.167
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:50:14.183
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:50:14.683
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:50:14.693
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:50:15.019
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:50:15.032
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:50:15.043
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:50:15.370
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:50:15.383
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:50:15.402
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:50:16.318
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:50:16.338
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:50:16.355
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:50:17.053
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:53:16.834
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:53:20.860
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:53:21.129
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:53:21.139
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:53:21.333
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:53:21.344
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:53:21.356
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:53:21.517
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:53:21.530
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:53:21.540
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:53:21.699
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:53:21.708
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:53:21.721
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:53:21.881
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:53:22.566
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:53:22.575
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:53:23.006
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:53:23.017
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:53:23.234
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:53:23.246
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:53:23.255
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:53:27.963
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:53:27.975
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:53:27.990
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:53:28.422
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:55:35.954
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:55:37.575
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:55:37.813
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:55:37.821
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:55:37.983
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:55:37.995
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:55:38.006
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:55:38.153
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:55:38.164
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:55:38.172
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:55:38.359
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:55:38.371
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:55:38.396
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:55:38.549
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:55:39.266
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:55:39.278
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:55:39.663
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:55:39.677
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:55:39.896
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:55:39.914
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:55:39.932
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:55:40.764
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:55:40.772
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:55:40.783
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:55:41.182
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:57:46.417
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:57:46.428
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:57:46.551
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:57:46.559
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:57:46.748
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:57:46.761
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:57:46.769
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:57:46.898
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:57:46.907
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:57:46.916
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:57:47.041
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:57:47.052
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:57:47.065
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:57:47.190
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:57:47.689
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:57:47.706
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:57:48.060
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:57:48.071
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:57:48.245
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:57:48.254
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:57:48.260
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:57:48.936
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:57:48.945
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:57:48.955
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:57:49.531
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:59:28.484
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:59:28.644
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:59:28.653
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:59:28.790
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:59:29.069
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:59:29.078
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:59:29.086
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-06-03 22:59:29.833
+!MESSAGE Unable to configure jt-manage-controller
+!STACK 0
+org.eclipse.m2e.wtp.MarkedException: Unable to configure jt-manage-controller
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:98)
+	at org.eclipse.m2e.wtp.WTPProjectConfigurator.configure(WTPProjectConfigurator.java:68)
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:501)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:494)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration0(ProjectConfigurationManager.java:432)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:345)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1351)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:342)
+	at org.eclipse.m2e.core.ui.internal.UpdateMavenProjectJob.runInWorkspace(UpdateMavenProjectJob.java:77)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have not been satisfied.
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modifyInternal(FacetedProject.java:363)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.mergeChangesInternal(FacetedProject.java:1181)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.access$2(FacetedProject.java:1117)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:324)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:339)
+	at org.eclipse.m2e.wtp.WebProjectConfiguratorDelegate.configure(WebProjectConfiguratorDelegate.java:136)
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:94)
+	... 18 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 22:59:30.303
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:01:07.728
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:01:07.742
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:01:07.757
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:01:07.989
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:01:07.999
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:01:08.011
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:01:08.025
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:01:08.033
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:01:08.044
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:01:08.062
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:01:08.070
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:01:08.082
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:01:08.096
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:01:08.106
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:48:44.453
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:48:52.587
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:48:52.595
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:48:52.700
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:48:52.708
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:48:52.718
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:48:52.885
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:48:52.896
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:48:52.904
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:48:52.999
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:48:53.007
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:48:53.014
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:48:53.130
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:48:53.140
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:48:53.148
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:48:53.268
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:48:54.018
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:48:54.031
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:48:54.406
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:48:54.414
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:48:54.546
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:48:54.558
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:48:54.569
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:48:55.537
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:48:55.549
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:48:55.564
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:48:55.993
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:50:49.780
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:50:49.816
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:50:49.857
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:50:49.874
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:50:49.909
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:50:49.941
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:50:50.494
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:51:40.580
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:51:40.622
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:51:40.636
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:51:40.672
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:51:40.702
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:51:40.733
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:51:40.742
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:51:40.747
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:51:40.783
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:51:40.793
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:51:40.800
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:51:40.929
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:51:41.182
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:51:41.194
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:51:41.203
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:52:23.371
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:59:47.744
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:59:47.751
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:59:48.139
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:59:48.151
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:59:48.161
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:59:48.536
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:59:48.555
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-03 23:59:48.570
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+!SESSION 2018-06-04 12:27:59.363 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_31
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-04 12:28:30.822
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\lijing'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2018-06-04 20:06:06.281 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_31
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-04 20:06:45.107
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\lijing'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-04 20:07:57.553
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-04 20:07:57.606
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-04 20:08:00.419
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-04 20:08:00.449
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-04 20:08:00.472
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-04 20:08:01.096
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-04 20:08:01.122
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-04 20:08:01.147
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-04 20:08:01.639
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-04 20:08:01.660
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-04 20:08:01.685
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-04 20:08:12.447
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-04 20:08:12.466
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-04 20:08:12.492
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+!SESSION 2018-06-09 14:14:59.919 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_31
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-09 14:15:33.874
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\lijing'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2018-06-09 14:15:39.751
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Connect to dev.eclipse.org:443 [dev.eclipse.org/198.41.30.200] failed: connect timed out. ; version: 2.0.4.v20170307-1435
+!STACK 0
+org.apache.http.conn.ConnectTimeoutException: Connect to dev.eclipse.org:443 [dev.eclipse.org/198.41.30.200] failed: connect timed out
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:134)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:68)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:244)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
+	... 16 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-09 14:15:47.574
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2018-06-09 15:14:12.766
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to connect to repository http://download.oracle.com/otn_software/oepe/library/oracle-cloud-storage-service-sdk-13/content.xml
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:243)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.getLocalFile(SimpleMetadataRepositoryFactory.java:66)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:88)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at sun.reflect.GeneratedMethodAccessor74.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:396)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:199)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:463)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:396)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:199)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:463)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:117)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2018-06-09 15:14:12.767
+!MESSAGE Unable to connect to repository http://download.oracle.com/otn_software/oepe/library/oracle-cloud-storage-service-sdk-13/content.xml
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:117)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2018-06-09 15:14:54.791
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to connect to repository http://download.oracle.com/otn_software/oepe/library/oracle-cloud-messaging-service-sdk-14.3/content.xml
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:243)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.getLocalFile(SimpleMetadataRepositoryFactory.java:66)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:88)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at sun.reflect.GeneratedMethodAccessor74.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:396)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:199)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:463)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:396)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:199)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:463)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:74)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:117)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2018-06-09 15:14:54.792
+!MESSAGE Unable to connect to repository http://download.oracle.com/otn_software/oepe/library/oracle-cloud-messaging-service-sdk-14.3/content.xml
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:117)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-09 18:31:32.423
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-09 18:31:32.480
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-09 18:31:32.572
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-09 18:31:35.404
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-09 18:31:35.434
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-09 18:31:35.468
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-09 18:31:35.502
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-09 18:31:35.527
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-09 18:31:35.549
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-09 18:31:35.587
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-09 18:31:35.607
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-09 18:31:35.631
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-09 18:31:35.658
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-09 18:31:35.685
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-09 19:24:14.551
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-09 19:24:14.552
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.recommenders.models.rcp 1 11 2018-06-09 19:24:16.443
+!MESSAGE The model index service was accessed either before it started or after it finished running.
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:126)
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelIndex.suggest(EclipseModelIndex.java:212)
+	at org.eclipse.recommenders.models.SimpleModelProvider.acquireModel(SimpleModelProvider.java:70)
+	at org.eclipse.recommenders.models.PoolingModelProvider.access$0(PoolingModelProvider.java:1)
+	at org.eclipse.recommenders.models.PoolingModelProvider$ModelPoolFactoryMediator.makeObject(PoolingModelProvider.java:96)
+	at org.eclipse.recommenders.models.PoolingModelProvider$ModelPoolFactoryMediator.makeObject(PoolingModelProvider.java:1)
+	at org.apache.commons.pool.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:1220)
+	at org.eclipse.recommenders.models.PoolingModelProvider.acquireModel(PoolingModelProvider.java:67)
+	at org.eclipse.recommenders.internal.calls.rcp.RcpCallModelProvider.acquireModel(RcpCallModelProvider.java:65)
+	at org.eclipse.recommenders.internal.calls.rcp.RcpCallModelProvider.acquireModel(RcpCallModelProvider.java:1)
+	at org.eclipse.recommenders.internal.models.rcp.PrefetchModelArchiveJob.run(PrefetchModelArchiveJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:25:41.975
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:33.562
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:34.981
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:35.248
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:35.268
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:35.301
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:35.571
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:35.589
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:35.610
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:35.893
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:35.912
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:35.932
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:36.177
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:36.198
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:36.221
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:36.596
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:36.637
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:37.576
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:37.681
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:37.744
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:37.797
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:37.851
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:38.732
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:39.265
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:39.318
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:39.338
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:41.751
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:41.794
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:42.280
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:42.300
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:42.704
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:42.748
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:42.775
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:43.182
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:43.236
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:43.259
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:43.746
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:43.803
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:43.828
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:51.599
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:51.621
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:51.645
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:27:52.222
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:49:56.318
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:49:56.751
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:49:56.815
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:49:56.867
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:49:56.921
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:49:57.468
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:49:57.521
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:49:57.792
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:49:58.248
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:49:58.269
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:49:58.282
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-06-10 11:49:59.631
+!MESSAGE Unable to configure jt-manage-controller
+!STACK 0
+org.eclipse.m2e.wtp.MarkedException: Unable to configure jt-manage-controller
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:98)
+	at org.eclipse.m2e.wtp.WTPProjectConfigurator.configure(WTPProjectConfigurator.java:68)
+	at org.eclipse.m2e.core.project.configurator.AbstractLifecycleMapping.configure(AbstractLifecycleMapping.java:120)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:501)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$3.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:494)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration0(ProjectConfigurationManager.java:432)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:345)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$2.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1351)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:342)
+	at org.eclipse.m2e.core.ui.internal.UpdateMavenProjectJob.runInWorkspace(UpdateMavenProjectJob.java:77)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have not been satisfied.
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modifyInternal(FacetedProject.java:363)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.mergeChangesInternal(FacetedProject.java:1181)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.access$2(FacetedProject.java:1117)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject$1.run(FacetedProject.java:324)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.wst.common.project.facet.core.internal.FacetedProject.modify(FacetedProject.java:339)
+	at org.eclipse.m2e.wtp.WebProjectConfiguratorDelegate.configure(WebProjectConfiguratorDelegate.java:136)
+	at org.eclipse.m2e.wtp.AbstractProjectConfiguratorDelegate.configureProject(AbstractProjectConfiguratorDelegate.java:94)
+	... 18 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 11:49:59.920
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-10 12:26:53.530
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-06-10 12:26:53.531
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-06-10 12:33:01.439
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [GsonString(Object) {key=Lcom/jt/common/util/GsonUtil;.GsonString(Ljava/lang/Object;)Ljava/lang/String;} [in GsonUtil [in [Working copy] GsonUtil.java [in com.jt.common.util [in src/main/java [in jt-common]]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:590)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:316)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:302)
+	at org.eclipse.jdt.internal.core.Member.getFlags(Member.java:165)
+	at org.eclipse.jdt.internal.corext.util.JdtFlags.isPrivate(JdtFlags.java:161)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkSuperImplementationDetector.isOverriddenMethod(JavaElementHyperlinkSuperImplementationDetector.java:54)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkSuperImplementationDetector.addHyperlinks(JavaElementHyperlinkSuperImplementationDetector.java:41)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:115)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:78)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:287)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:259)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:455)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:213)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4236)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3824)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2018-06-10 12:33:01.440
+!MESSAGE GsonString(Object) {key=Lcom/jt/common/util/GsonUtil;.GsonString(Ljava/lang/Object;)Ljava/lang/String;} [in GsonUtil [in [Working copy] GsonUtil.java [in com.jt.common.util [in src/main/java [in jt-common]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-06-10 12:33:01.445
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [GsonString(Object) {key=Lcom/jt/common/util/GsonUtil;.GsonString(Ljava/lang/Object;)Ljava/lang/String;} [in GsonUtil [in [Working copy] GsonUtil.java [in com.jt.common.util [in src/main/java [in jt-common]]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:590)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:316)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:302)
+	at org.eclipse.jdt.internal.core.SourceMethod.getReturnType(SourceMethod.java:188)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkReturnTypeDetector.addHyperlinks(JavaElementHyperlinkReturnTypeDetector.java:40)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:115)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:78)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:287)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:259)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:455)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:213)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4236)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3824)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2018-06-10 12:33:01.445
+!MESSAGE GsonString(Object) {key=Lcom/jt/common/util/GsonUtil;.GsonString(Ljava/lang/Object;)Ljava/lang/String;} [in GsonUtil [in [Working copy] GsonUtil.java [in com.jt.common.util [in src/main/java [in jt-common]]]]] does not exist
+!SESSION 2018-06-10 17:53:27.626 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_31
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-10 17:53:45.567
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\lijing'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2018-06-10 17:53:51.174
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Connect to dev.eclipse.org:443 [dev.eclipse.org/198.41.30.200] failed: Read timed out. ; version: 2.0.4.v20170307-1435
+!STACK 0
+org.apache.http.conn.ConnectTimeoutException: Connect to dev.eclipse.org:443 [dev.eclipse.org/198.41.30.200] failed: Read timed out
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:134)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:68)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.readV3Record(InputRecord.java:593)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:532)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:961)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1363)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1391)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1375)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:290)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:259)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
+	... 16 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 19:32:48.267
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 19:32:48.312
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 19:32:49.605
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 19:32:49.642
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 19:32:49.693
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 19:32:50.275
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 19:32:50.304
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 19:32:50.330
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 19:32:50.716
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 19:32:50.742
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 19:32:50.768
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 19:32:52.258
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 19:32:52.330
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-06-10 19:32:52.369
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2

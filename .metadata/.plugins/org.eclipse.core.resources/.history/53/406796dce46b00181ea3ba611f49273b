@@ -1,0 +1,48 @@
+package jedis.test;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Set;
+
+import com.alibaba.fastjson.JSONObject;
+
+import redis.clients.jedis.Jedis;
+
+public class JedisTest {
+	
+	public static void main(String[] args) throws Exception
+	{
+		//启动redis服务器  redis-server &
+		//先打开端口/sbin/iptables -I INPUT -p tcp --dport 6379 -j ACCEPT
+		//登录进去redis-cli -p 6379
+		//设置模式config set protected-mode "no"
+		//关闭服务  shutdown
+		Jedis jedis = new Jedis("192.168.109.128", 6380);
+//		String encoderByMd5 = MD5Util.EncoderByMd5("asd3135");
+//		System.out.println(encoderByMd5.toUpperCase());
+		//698E648F914C299BA3C578936484AB6B
+		jedis.auth("asd3135");
+		jedis.select(1);
+		/*Set<String> keys = jedis.keys("*");
+		Iterator<String> iterator = keys.iterator();
+		Map<String, String> hashMap = new HashMap<String,String>();
+		while(iterator.hasNext())
+		{
+			String key = iterator.next();
+			String value = jedis.get(key);
+			hashMap.put(key, value);
+		}
+		String json = JSONObject.toJSON(hashMap).toString();*/
+		jedis.select(1);
+		String string = jedis.get("userinfo");
+		JSONObject jsonObject = JSONObject.parseObject(string);
+		String username = jsonObject.getString("username");
+		String password = jsonObject.getString("password");
+		jedis.set("name", username);
+		jedis.set("pass", password);
+		System.out.println(string);
+		jedis.close();
+	}
+	
+}

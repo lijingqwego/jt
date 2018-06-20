@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="redis.clients.jedis.Jedis"/>
+<fullyQualifiedTypeName name="com.fasterxml.jackson.databind.util.JSONPObject"/>
+<fullyQualifiedTypeName name="com.fasterxml.jackson.core.JsonParser"/>
+<fullyQualifiedTypeName name="com.alibaba.fastjson.JSONObject"/>
+<fullyQualifiedTypeName name="com.jt.common.util.EncrypDES"/>
+<fullyQualifiedTypeName name="com.jt.common.util.MD5Util"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="redis.clients.jedis.ShardedJedis"/>
+<fullyQualifiedTypeName name="redis.clients.jedis.JedisShardInfo"/>
+<fullyQualifiedTypeName name="com.jt.common.service.RedisService"/>
+<fullyQualifiedTypeName name="org.apache.commons.lang3.StringUtils"/>
+<fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonIgnore"/>
+<fullyQualifiedTypeName name="com.google.gson.reflect.TypeToken"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.google.gson.JsonParser"/>
+<fullyQualifiedTypeName name="com.jt.common.util.GsonUtil"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="redis.clients.jedis.HostAndPort"/>
+<fullyQualifiedTypeName name="redis.clients.jedis.JedisSentinelPool"/>
+</qualifiedTypeNameHistroy>
