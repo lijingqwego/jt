@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;jt-web/src/main/resources&apos;&#x0D;&#x0A;- Original project: &apos;jt-manage-controller&apos;&#x0D;&#x0A;- Destination element: &apos;jt-web/src/main/resources&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     spring&#x0D;&#x0A;     mybatis" description="Copy folders" destination="=jt-web/src\/main\/resources" element1="src/main/resources/spring" element2="src/main/resources/mybatis" files="0" flags="589830" folders="2" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1529756812159" units="0" version="1.0"/>
+</session>
