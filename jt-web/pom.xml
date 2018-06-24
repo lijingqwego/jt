@@ -5,9 +5,6 @@
   <packaging>war</packaging>
   <name>jt-web Maven Webapp</name>
   <url>http://maven.apache.org</url>
-  <build>
-    <finalName>jt-web</finalName>
-  </build>
   <parent>
   	<groupId>com.jt</groupId>
   	<artifactId>jt-parent</artifactId>
@@ -20,4 +17,18 @@
   		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
   </dependencies>
+  <build>
+    <finalName>jt-web</finalName>
+	<plugins>
+		<plugin>
+			<groupId>org.apache.tomcat.maven</groupId>
+			<artifactId>tomcat7-maven-plugin</artifactId>
+			<version>2.2</version>
+			<configuration>
+				<port>8081</port>
+				<path>/</path>
+			</configuration>
+		</plugin>
+	</plugins>
+  </build>
 </project>
