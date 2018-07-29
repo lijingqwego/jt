@@ -3,24 +3,44 @@ package com.jt.web.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.jt.common.service.HttpClientService;
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
+import com.jt.common.service.OkHttpClientService;
+import com.jt.common.spring.exetend.PropertyConfig;
 import com.jt.web.pojo.Item;
 
 @Service
 public class ItemService {
+//	@Autowired
+//	private HttpClientService httpClientService;
 	@Autowired
-	private HttpClientService httpClientService;
-	private static final ObjectMapper MAPPER = new ObjectMapper();
+	private OkHttpClientService okHttpClientService;
+	
+	@PropertyConfig //¶ÁÈ¡ÅäÖÃÎÄ¼şÖĞµÄÖµ ²¢ÇÒ½«Öµ¸³Öµ¸øÕâ¸ö±äÁ¿
+	public String MANAGE_URL;
 	
 	public Item getItemById(Long itemId) throws Exception{
-		//é€šè¿‡httpClientå‘èµ·httpè¯·æ±‚ï¼Œè¯·æ±‚åå°
-		String url = "http://manage.jt.com/web/item/"+itemId;
-		//æ³¨æ„æœ‰è¶…æ—¶çš„é—®é¢˜ï¼Œ
-		String jsonData = httpClientService.doGet(url, "utf-8");
-		
-		//æŠŠjsonä¸²è½¬æˆå•ä¸ªpojoå¯¹è±¡
-		Item item = MAPPER.readValue(jsonData, Item.class);
+		Item item = new Item();
+		String url = MANAGE_URL+"/item/items/"+itemId;
+//		String jsonData = httpClientService.doGet(url, "utf-8");
+		String jsonData = okHttpClientService.httpGet(url);
+		JSONObject parseObject = JSON.parseObject(jsonData);
+		if(parseObject.isEmpty())
+		{
+			return item;
+		}
+		JSONObject jsonObject = parseObject.getJSONObject("data");
+		if(!jsonObject.isEmpty())
+		{
+			item.setCid(jsonObject.getLong("cid"));
+			item.setId(jsonObject.getLong("id"));
+			item.setImage(jsonObject.getString("image"));
+			item.setNum(jsonObject.getInteger("num"));
+			item.setPrice(jsonObject.getLong("price"));
+			item.setSellPoint(jsonObject.getString("sellPoint"));
+			item.setStatus(jsonObject.getInteger("status"));
+			item.setTitle(jsonObject.getString("title"));
+		}
 		return item;
 	}
 }

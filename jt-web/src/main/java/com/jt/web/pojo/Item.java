@@ -65,7 +65,7 @@ public class Item extends BasePojo{
 		this.status = status;
 	}
 	
-	//页面需要图片数组
+	
 	public String[] getImages(){
 		return this.image.split(",");
 	}

@@ -90,4 +90,8 @@ public class ItemService extends BaseService<Item>{
 		itemDescMapper.deleteByIDS(ids);
 		itemMapper.deleteByIDS(ids);
 	}
+	
+	public Item getItemById(Long itemId){
+		return itemMapper.selectByPrimaryKey(itemId);
+	}
 }

@@ -1,0 +1,26 @@
+package com.jt.web.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.jt.common.service.HttpClientService;
+import com.jt.common.util.GsonUtil;
+import com.jt.web.pojo.Item;
+
+@Service
+public class ItemService {
+	@Autowired
+	private HttpClientService httpClientService;
+	
+	public Item getItemById(Long itemId) throws Exception{
+		///query/item/desc/{itemId}
+		String url = "http://localhost:8080/item/query/item/desc/"+itemId;
+		
+		String jsonData = httpClientService.doGet(url, "utf-8");
+		
+		
+		Item item = GsonUtil.GsonToBean(jsonData, Item.class);
+		return item;
+	}
+}

@@ -1,4 +1,5 @@
 package com.jt.manage.controller;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -6,6 +7,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import com.jt.common.service.RedisService;
+import com.jt.common.util.GsonUtil;
 import com.jt.common.vo.EasyUIResult;
 import com.jt.common.vo.SysResult;
 import com.jt.manage.pojo.Item;
@@ -21,6 +24,10 @@ public class ItemController {
 
 	@Autowired
 	private ItemService itemService;
+	@Autowired
+	private RedisService redisService;
+	
+	private static final String item_key="item_";
 	
 	@RequestMapping("/query")
 	@ResponseBody
@@ -93,6 +100,35 @@ public class ItemController {
 		ItemDesc itemDesc = itemService.getItemDesc(itemId);
 		try {
 			return SysResult.ok(itemDesc);
+		} catch (Exception e) {
+			log.error(e.getMessage());
+			return SysResult.build(201, e.getMessage());
+		}
+	}
+	
+	/**
+	 * 商品详情
+	 * @param item
+	 * @return
+	 */
+	@RequestMapping("/items/{itemId}")
+	@ResponseBody
+	public SysResult getItem(@PathVariable Long itemId){
+		Item item=null;
+		String itemJson = redisService.get(item_key+itemId);
+		if(StringUtils.isNotEmpty(itemJson))
+		{
+			log.debug("从缓存中读取。。。。");
+			item = GsonUtil.GsonToBean(itemJson, Item.class);
+		}
+		else
+		{
+			log.debug("从数据库中读取。。。。");
+			item = itemService.getItemById(itemId);
+			redisService.set(item_key+itemId, GsonUtil.GsonString(item));
+		}
+		try {
+			return SysResult.ok(item);
 		} catch (Exception e) {
 			log.error(e.getMessage());
 			return SysResult.build(201, e.getMessage());

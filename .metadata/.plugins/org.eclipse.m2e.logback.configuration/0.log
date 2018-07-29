@@ -1557,3 +1557,107 @@ Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have 
 2018-06-24 17:45:30,784 [Worker-216] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
 2018-07-28 19:29:45,436 [Worker-44] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-manage\jt-manage-controller
 2018-07-28 19:29:45,472 [Worker-44] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-07-28 20:12:28,825 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+2018-07-28 20:12:29,039 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+2018-07-29 19:31:25,122 [Worker-11] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-manage
+2018-07-29 19:31:25,160 [Worker-11] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests --threads 4 -s D:\Software\apache-maven-3.5.2\conf\settings.xml clean install
+2018-07-29 19:38:32,811 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2018-07-29 19:38:56,389 [Worker-17] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-web
+2018-07-29 19:38:56,389 [Worker-17] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests --threads 4 -s D:\Software\apache-maven-3.5.2\conf\settings.xml clean install
+2018-07-29 19:39:43,014 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2018-07-29 19:40:02,241 [Worker-18] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-web
+2018-07-29 19:40:02,241 [Worker-18] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-07-29 19:45:25,396 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+2018-07-29 19:45:25,525 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+2018-07-29 19:57:15,281 [Worker-4] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-manage\jt-manage-controller
+2018-07-29 19:57:15,282 [Worker-4] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-07-29 20:09:34,432 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+2018-07-29 20:09:34,542 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+2018-07-29 20:09:34,641 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+2018-07-29 20:12:04,308 [Worker-24] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-manage\jt-manage-controller
+2018-07-29 20:12:04,308 [Worker-24] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-07-29 20:13:07,857 [Worker-16] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-web
+2018-07-29 20:13:07,857 [Worker-16] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-07-29 20:16:15,217 [Worker-24] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-web
+2018-07-29 20:16:15,218 [Worker-24] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-07-29 20:21:09,452 [Worker-25] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-web
+2018-07-29 20:21:09,453 [Worker-25] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-07-29 20:32:59,925 [Worker-16] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-web
+2018-07-29 20:32:59,925 [Worker-16] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-07-29 20:50:35,416 [Worker-26] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-manage
+2018-07-29 20:50:35,417 [Worker-26] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests --threads 4 -s D:\Software\apache-maven-3.5.2\conf\settings.xml clean install
+2018-07-29 20:52:17,749 [Worker-26] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-parent
+2018-07-29 20:52:17,749 [Worker-26] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests --threads 4 -s D:\Software\apache-maven-3.5.2\conf\settings.xml clean install
+2018-07-29 20:52:27,892 [Worker-37] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-common
+2018-07-29 20:52:27,892 [Worker-37] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests --threads 4 -s D:\Software\apache-maven-3.5.2\conf\settings.xml clean install
+2018-07-29 20:52:38,989 [Worker-29] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-manage
+2018-07-29 20:52:38,990 [Worker-29] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests --threads 4 -s D:\Software\apache-maven-3.5.2\conf\settings.xml clean install
+2018-07-29 20:53:15,045 [Worker-29] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-manage\jt-manage-controller
+2018-07-29 20:53:15,046 [Worker-29] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-07-29 20:53:45,288 [Worker-33] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-web
+2018-07-29 20:53:45,289 [Worker-33] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-07-29 20:57:04,163 [Worker-36] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-manage\jt-manage-controller
+2018-07-29 20:57:04,164 [Worker-36] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-07-29 20:57:28,606 [Worker-21] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-web
+2018-07-29 20:57:28,607 [Worker-21] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-07-29 21:09:31,722 [Worker-36] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-web
+2018-07-29 21:09:31,722 [Worker-36] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-07-29 21:20:49,497 [Worker-39] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-web
+2018-07-29 21:20:49,498 [Worker-39] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-07-29 21:45:42,533 [Worker-44] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-manage\jt-manage-controller
+2018-07-29 21:45:42,534 [Worker-44] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-07-29 21:46:02,068 [Worker-47] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-web
+2018-07-29 21:46:02,068 [Worker-47] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-07-29 21:47:45,195 [Worker-49] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-web
+2018-07-29 21:47:45,196 [Worker-49] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-07-29 21:50:02,623 [Worker-46] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-web
+2018-07-29 21:50:02,623 [Worker-46] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-07-29 21:53:26,042 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+2018-07-29 21:57:52,235 [Worker-53] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-parent
+2018-07-29 21:57:52,236 [Worker-53] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests --threads 4 -s D:\Software\apache-maven-3.5.2\conf\settings.xml clean install
+2018-07-29 21:59:36,540 [Worker-54] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-07-29 21:59:37,599 [Worker-54] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.jt:jt-common:0.0.1-SNAPSHOT @ D:\Users\lijing\workspace\jt\jt-common\pom.xml.
+2018-07-29 21:59:37,998 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+2018-07-29 21:59:38,068 [Worker-54] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.jt:jt-manage-pojo:0.0.1-SNAPSHOT @ D:\Users\lijing\workspace\jt\jt-manage\jt-manage-pojo\pom.xml.
+2018-07-29 21:59:38,075 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+2018-07-29 21:59:38,172 [Worker-54] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.jt:jt-manage-controller:0.0.1-SNAPSHOT @ D:\Users\lijing\workspace\jt\jt-manage\jt-manage-controller\pom.xml.
+2018-07-29 21:59:38,210 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+2018-07-29 21:59:38,323 [Worker-54] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.jt:jt-manage-service:0.0.1-SNAPSHOT @ D:\Users\lijing\workspace\jt\jt-manage\jt-manage-service\pom.xml.
+2018-07-29 21:59:38,331 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+2018-07-29 21:59:38,378 [Worker-54] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.jt:jt-manage:0.0.1-SNAPSHOT @ D:\Users\lijing\workspace\jt\jt-manage\pom.xml.
+2018-07-29 21:59:38,383 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+2018-07-29 21:59:38,460 [Worker-54] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.jt:jt-manage-mapper:0.0.1-SNAPSHOT @ D:\Users\lijing\workspace\jt\jt-manage\jt-manage-mapper\pom.xml.
+2018-07-29 21:59:38,538 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+2018-07-29 21:59:38,589 [Worker-54] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.jt:jt-web:0.0.1-SNAPSHOT @ D:\Users\lijing\workspace\jt\jt-web\pom.xml.
+2018-07-29 21:59:38,593 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+2018-07-29 21:59:39,882 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+2018-07-29 21:59:40,677 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+2018-07-29 21:59:42,682 [Worker-54] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jt-common/src/main/java
+2018-07-29 21:59:42,683 [Worker-54] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /jt-common/src/test/java
+2018-07-29 21:59:43,914 [Worker-54] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 7 sec
+2018-07-29 22:01:11,703 [Worker-50] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-manage
+2018-07-29 22:01:11,703 [Worker-50] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests --threads 4 -s D:\Software\apache-maven-3.5.2\conf\settings.xml clean install
+2018-07-29 22:03:57,283 [Worker-49] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-common
+2018-07-29 22:03:57,283 [Worker-49] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests --threads 4 -s D:\Software\apache-maven-3.5.2\conf\settings.xml clean install
+2018-07-29 22:04:15,982 [Worker-51] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-manage
+2018-07-29 22:04:15,983 [Worker-51] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests --threads 4 -s D:\Software\apache-maven-3.5.2\conf\settings.xml clean install
+2018-07-29 22:04:39,355 [Worker-54] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-manage\jt-manage-controller
+2018-07-29 22:04:39,355 [Worker-54] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-07-29 22:04:57,694 [Worker-33] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-web
+2018-07-29 22:04:57,694 [Worker-33] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-07-29 22:20:45,938 [Worker-60] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-manage\jt-manage-controller
+2018-07-29 22:20:45,941 [Worker-60] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-07-29 22:38:09,648 [Worker-69] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-manage\jt-manage-controller
+2018-07-29 22:38:09,648 [Worker-69] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-07-29 22:42:17,198 [Worker-70] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-manage\jt-manage-controller
+2018-07-29 22:42:17,198 [Worker-70] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-07-29 22:42:38,064 [Worker-75] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-web
+2018-07-29 22:42:38,064 [Worker-75] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-07-29 22:43:58,232 [Worker-73] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-manage\jt-manage-controller
+2018-07-29 22:43:58,233 [Worker-73] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-07-29 23:07:35,737 [Worker-78] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-web
+2018-07-29 23:07:35,738 [Worker-78] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-07-29 23:17:38,159 [Worker-70] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-manage\jt-manage-controller
+2018-07-29 23:17:38,160 [Worker-70] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-07-29 23:17:55,330 [Worker-82] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-web
+2018-07-29 23:17:55,330 [Worker-82] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
