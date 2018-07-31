@@ -1,0 +1,22 @@
+package com.jt.sso.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.jt.common.vo.SysResult;
+import com.jt.sso.service.UserService;
+
+@Controller
+@RequestMapping(name="/user")
+public class UserController {
+
+	@Autowired
+	private UserService userService;
+
+	@RequestMapping(name="/check/{param}/{type}")
+	public SysResult check(String param,Integer type){
+		boolean check = userService.check(param, type);
+		return SysResult.ok(check);
+	}
+}

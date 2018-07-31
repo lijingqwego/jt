@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jt.sso.mapper.UserMapper">
+	<!-- 校验username,phone,email -->
+	<select id="check" parameterType="java.util.Map" resultType="int">
+		SELECT COUNT(*) FROM TB_USER WHERE ${whereName}=#{whereValue}
+	</select>
+</mapper>

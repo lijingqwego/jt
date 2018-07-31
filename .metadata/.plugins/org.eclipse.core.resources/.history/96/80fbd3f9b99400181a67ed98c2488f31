@@ -1,0 +1,6 @@
+package com.jt.sso.pojo;
+
+public class User extends BasePojo{
+
+	
+}

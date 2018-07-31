@@ -1,0 +1,8 @@
+package com.jt.sso.mapper;
+
+import java.util.Map;
+
+public interface UserMapper2 {
+
+	int check(Map<String,String> param);
+}

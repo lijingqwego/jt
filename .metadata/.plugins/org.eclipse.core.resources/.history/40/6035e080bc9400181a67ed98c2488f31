@@ -1,0 +1,10 @@
+package com.jt.sso.service;
+
+import java.util.Map;
+
+public class UserService {
+
+	int check(Map<String,String> param){
+		
+	}
+}
