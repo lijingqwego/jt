@@ -57,8 +57,7 @@ public class UserService extends BaseService<User> {
 		return user.getUsername();
 	}
 	
-	public String login(User user)
-	{
+	public String login(User user){
 		User _user = super.queryByWhere(user);
 		String password = DigestUtils.md5Hex(user.getPassword());
 		String _password = _user.getPassword();

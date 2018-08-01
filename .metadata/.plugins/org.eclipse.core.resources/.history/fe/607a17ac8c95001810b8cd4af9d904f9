@@ -57,8 +57,7 @@ public class UserService extends BaseService<User> {
 		return user.getUsername();
 	}
 	
-	public String login(User user)
-	{
+	public String login(User user){
 		User _user = super.queryByWhere(user);
 		String password = DigestUtils.md5Hex(user.getPassword());
 		String _password = _user.getPassword();
@@ -66,7 +65,7 @@ public class UserService extends BaseService<User> {
 		{
 			//唯一,动态，不可逆
 			String ticket=DigestUtils.md5Hex("TICKET_"+user.getUsername()+user.getId()+System.currentTimeMillis());
-			redisService.set(ticket, JSON.toJSONString(_user));
+			redisService.set(ticket, JSON.toJSONString(user));
 			return ticket;
 		}
 		else

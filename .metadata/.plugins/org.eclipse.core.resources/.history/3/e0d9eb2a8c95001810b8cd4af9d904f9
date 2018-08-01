@@ -5,12 +5,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.apache.commons.codec.digest.DigestUtils;
-import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.alibaba.fastjson.JSON;
-import com.jt.common.service.RedisService;
 import com.jt.sso.mapper.UserMapper;
 import com.jt.sso.pojo.User;
 
@@ -19,9 +16,6 @@ public class UserService extends BaseService<User> {
 
 	@Autowired
 	private UserMapper userMapper;
-	
-	@Autowired
-	private RedisService redisService;
 
 	public Boolean check(String param, Integer type) {
 		Map<String, Object> paramMap = new HashMap<String, Object>();
@@ -55,23 +49,5 @@ public class UserService extends BaseService<User> {
 		}
 		
 		return user.getUsername();
-	}
-	
-	public String login(User user)
-	{
-		User _user = super.queryByWhere(user);
-		String password = DigestUtils.md5Hex(user.getPassword());
-		String _password = _user.getPassword();
-		if(StringUtils.equals(password, _password))
-		{
-			//唯一,动态，不可逆
-			String ticket=DigestUtils.md5Hex("TICKET_"+user.getUsername()+user.getId()+System.currentTimeMillis());
-			redisService.set(ticket, JSON.toJSONString(_user));
-			return ticket;
-		}
-		else
-		{
-			return null;
-		}
 	}
 }

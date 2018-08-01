@@ -8,7 +8,6 @@
 <fullyQualifiedTypeName name="org.junit.Test"/>
 <fullyQualifiedTypeName name="redis.clients.jedis.ShardedJedis"/>
 <fullyQualifiedTypeName name="redis.clients.jedis.JedisShardInfo"/>
-<fullyQualifiedTypeName name="com.jt.common.service.RedisService"/>
 <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonIgnore"/>
 <fullyQualifiedTypeName name="com.google.gson.reflect.TypeToken"/>
 <fullyQualifiedTypeName name="java.util.List"/>
@@ -20,10 +19,22 @@
 <fullyQualifiedTypeName name="com.alibaba.fastjson.JSONObject"/>
 <fullyQualifiedTypeName name="com.alibaba.fastjson.JSON"/>
 <fullyQualifiedTypeName name="com.jt.common.spring.exetend.PropertyConfig"/>
-<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="com.jt.common.service.OkHttpClientService"/>
 <fullyQualifiedTypeName name="com.jt.web.service.ItemService"/>
 <fullyQualifiedTypeName name="org.apache.commons.lang3.StringUtils"/>
 <fullyQualifiedTypeName name="com.jt.manage.pojo.Item"/>
 <fullyQualifiedTypeName name="com.jt.common.util.GsonUtil"/>
+<fullyQualifiedTypeName name="javax.persistence.Table"/>
+<fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+<fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+<fullyQualifiedTypeName name="com.jt.common.vo.SysResult"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseBody"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+<fullyQualifiedTypeName name="com.jt.common.service.RedisService"/>
+<fullyQualifiedTypeName name="org.apache.commons.codec.digest.DigestUtils"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="com.jt.sso.pojo.User"/>
 </qualifiedTypeNameHistroy>
