@@ -1,0 +1,12 @@
+redis.minIdle=300
+redis.maxIdle=500
+redis.maxTotal=5000
+
+redis.sentinel1.host=127.0.0.1
+redis.sentinel1.port=6379
+
+redis.sentinel2.host=127.0.0.1
+redis.sentinel2.port=6379
+
+redis.sentinel.masterName=mymaster
+redis.sentinel.password=6379

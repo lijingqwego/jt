@@ -8,4 +8,6 @@ import com.jt.sso.pojo.User;
 public interface UserMapper extends SysMapper<User>{
 
 	int check(Map<String,Object> param);
+
+	User getUserInfo(String username);
 }

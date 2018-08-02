@@ -597,7 +597,7 @@ function checkPin(option) {
             nameold = pin;
             option.errorEle.html("<em style='color:#999'>检验中……</em>");
             $.ajax({
-            	url : "http://sso.jt.com/user/check/"+escape(pin)+"/1?r=" + Math.random(),
+            	url : "http://localhost:8082/user/check/"+escape(pin)+"/1?r=" + Math.random(),
             	dataType : "jsonp",
             	success : function(data) {
                     checkpin = data.data?"1":"0";
@@ -652,7 +652,7 @@ function sendMobileCode() {
     $('#mobileCode').removeClass("highlight2");
     // 检测手机号码是否存在
     $.ajax({
-    	url : "http://sso.jt.com/user/check/"+mobile+"/2?r=" + Math.random(),
+    	url : "http://localhost:8082/user/check/"+mobile+"/2?r=" + Math.random(),
     	dataType : "jsonp",
     	success : function(result) {
             if (!result.data) {
@@ -846,7 +846,7 @@ function sendMobileCode1() {
     
     // 检测手机号码是否存在
     $.ajax({
-    	url : "http://sso.jt.com/user/check/"+mobile+"/2?r=" + Math.random(),
+    	url : "http://localhost:8082/user/check/"+mobile+"/2?r=" + Math.random(),
     	dataType : "jsonp",
     	success : function(result) {
             if (!result.data) {
@@ -1261,7 +1261,7 @@ function phoneBlur() {
     $("#state").val("");
     // 检测手机号码是否存在
     $.ajax({
-    	url : "http://sso.jt.com/user/check/"+mobile+"/2?r=" + Math.random(),
+    	url : "http://localhost:8082/user/check/"+mobile+"/2?r=" + Math.random(),
     	dataType : "jsonp",
     	success : function(result) {
             mobileResult = result.data ? "1" : "0";
@@ -1329,7 +1329,7 @@ function phoneKeyup() {
     $("#state").val("");
     // 检测手机号码是否存在
     $.ajax({
-    	url : "http://sso.jt.com/user/check/"+mobile+"/2?r=" + Math.random(),
+    	url : "http://localhost:8082/user/check/"+mobile+"/2?r=" + Math.random(),
     	dataType : "jsonp",
     	success : function(result) {
             mobileResult = result.data ? "1" : "0";

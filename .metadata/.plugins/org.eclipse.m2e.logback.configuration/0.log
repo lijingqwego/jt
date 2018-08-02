@@ -1775,3 +1775,49 @@ Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have 
 2018-07-31 21:01:01,306 [Worker-43] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
 2018-07-31 23:52:19,119 [Worker-73] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-sso
 2018-07-31 23:52:19,119 [Worker-73] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests --threads 4 -s D:\Software\apache-maven-3.5.2\conf\settings.xml clean install
+2018-08-01 21:55:39,328 [Worker-20] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-sso
+2018-08-01 21:55:39,348 [Worker-20] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests --threads 4 -s D:\Software\apache-maven-3.5.2\conf\settings.xml clean install
+2018-08-02 09:36:54,341 [Worker-6] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-sso
+2018-08-02 09:36:54,363 [Worker-6] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-08-02 09:37:24,937 [Worker-22] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-web
+2018-08-02 09:37:24,938 [Worker-22] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-08-02 09:54:14,957 [Worker-31] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-web
+2018-08-02 09:54:14,957 [Worker-31] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests --threads 4 -s D:\Software\apache-maven-3.5.2\conf\settings.xml clean install
+2018-08-02 09:54:30,882 [Worker-27] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-web
+2018-08-02 09:54:30,882 [Worker-27] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-08-02 10:14:10,198 [Worker-36] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-manage\jt-manage-controller
+2018-08-02 10:14:10,199 [Worker-36] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-08-02 16:54:57,019 [Worker-65] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-sso
+2018-08-02 16:54:57,020 [Worker-65] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests --threads 4 -s D:\Software\apache-maven-3.5.2\conf\settings.xml clean install
+2018-08-02 16:55:09,011 [Worker-66] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-web
+2018-08-02 16:55:09,011 [Worker-66] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests --threads 4 -s D:\Software\apache-maven-3.5.2\conf\settings.xml clean install
+2018-08-02 16:55:25,132 [Worker-64] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-sso
+2018-08-02 16:55:25,132 [Worker-64] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-08-02 17:04:08,812 [Worker-58] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-web
+2018-08-02 17:04:08,813 [Worker-58] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests --threads 4 -s D:\Software\apache-maven-3.5.2\conf\settings.xml clean install
+2018-08-02 17:04:14,252 [Worker-69] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-web
+2018-08-02 17:04:14,253 [Worker-69] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-08-02 17:06:42,473 [Worker-59] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-web
+2018-08-02 17:06:42,473 [Worker-59] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-08-02 17:15:35,605 [Worker-59] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-web
+2018-08-02 17:15:35,605 [Worker-59] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-08-02 17:30:40,457 [Worker-75] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-web
+2018-08-02 17:30:40,458 [Worker-75] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-08-02 17:34:22,057 [Worker-73] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-web
+2018-08-02 17:34:22,057 [Worker-73] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-08-02 17:35:59,790 [Worker-67] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-web
+2018-08-02 17:35:59,790 [Worker-67] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-08-02 17:39:01,029 [Worker-73] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-web
+2018-08-02 17:39:01,029 [Worker-73] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-08-02 17:55:54,747 [Worker-59] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-web
+2018-08-02 17:55:54,747 [Worker-59] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests --threads 4 -s D:\Software\apache-maven-3.5.2\conf\settings.xml clean install
+2018-08-02 17:56:09,711 [Worker-77] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-web
+2018-08-02 17:56:09,712 [Worker-77] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-08-02 18:19:32,247 [Worker-85] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-sso
+2018-08-02 18:19:32,247 [Worker-85] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests --threads 4 -s D:\Software\apache-maven-3.5.2\conf\settings.xml clean install
+2018-08-02 18:19:46,771 [Worker-85] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-sso
+2018-08-02 18:19:46,771 [Worker-85] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run
+2018-08-02 18:20:04,275 [Worker-82] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-web
+2018-08-02 18:20:04,275 [Worker-82] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dmaven.test.skip=true -DskipTests --threads 4 -s D:\Software\apache-maven-3.5.2\conf\settings.xml clean install
+2018-08-02 18:20:25,169 [Worker-82] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Users\lijing\workspace\jt\jt-web
+2018-08-02 18:20:25,169 [Worker-82] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -s D:\Software\apache-maven-3.5.2\conf\settings.xml tomcat7:run

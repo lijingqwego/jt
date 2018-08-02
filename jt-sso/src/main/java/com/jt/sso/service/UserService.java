@@ -59,7 +59,7 @@ public class UserService extends BaseService<User> {
 	
 	public String login(User user)
 	{
-		User _user = super.queryByWhere(user);
+		User _user = userMapper.getUserInfo(user.getUsername());;
 		String password = DigestUtils.md5Hex(user.getPassword());
 		String _password = _user.getPassword();
 		if(StringUtils.equals(password, _password))

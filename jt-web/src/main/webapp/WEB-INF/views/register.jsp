@@ -64,7 +64,7 @@ function regist() {
     }
 })(jQuery);
 function addToFavorite() {
-    var a = "http://www.jt.com/";
+    var a = "http://localhost:8081/";
     var b = "京淘商城-网购上京淘，省钱又放心";
     if (document.all) {
         window.external.AddFavorite(a, b)

@@ -7,4 +7,8 @@
 	<select id="check" parameterType="java.util.Map" resultType="int">
 		SELECT COUNT(*) FROM TB_USER WHERE ${whereName}=#{whereValue}
 	</select>
+	
+	<select id="getUserInfo" parameterType="java.lang.String" resultType="com.jt.sso.pojo.User">
+		SELECT * FROM TB_USER WHERE username=#{username}
+	</select>
 </mapper>

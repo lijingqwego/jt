@@ -17,11 +17,9 @@
 <fullyQualifiedTypeName name="redis.clients.jedis.HostAndPort"/>
 <fullyQualifiedTypeName name="redis.clients.jedis.JedisSentinelPool"/>
 <fullyQualifiedTypeName name="com.alibaba.fastjson.JSONObject"/>
-<fullyQualifiedTypeName name="com.alibaba.fastjson.JSON"/>
 <fullyQualifiedTypeName name="com.jt.common.spring.exetend.PropertyConfig"/>
 <fullyQualifiedTypeName name="com.jt.common.service.OkHttpClientService"/>
 <fullyQualifiedTypeName name="com.jt.web.service.ItemService"/>
-<fullyQualifiedTypeName name="org.apache.commons.lang3.StringUtils"/>
 <fullyQualifiedTypeName name="com.jt.manage.pojo.Item"/>
 <fullyQualifiedTypeName name="com.jt.common.util.GsonUtil"/>
 <fullyQualifiedTypeName name="javax.persistence.Table"/>
@@ -31,10 +29,13 @@
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
 <fullyQualifiedTypeName name="com.jt.common.vo.SysResult"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseBody"/>
-<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
-<fullyQualifiedTypeName name="com.jt.common.service.RedisService"/>
 <fullyQualifiedTypeName name="org.apache.commons.codec.digest.DigestUtils"/>
 <fullyQualifiedTypeName name="java.sql.Date"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="com.jt.sso.pojo.User"/>
+<fullyQualifiedTypeName name="org.apache.commons.lang3.StringUtils"/>
+<fullyQualifiedTypeName name="com.alibaba.fastjson.JSON"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+<fullyQualifiedTypeName name="org.apache.commons.codec.language.RefinedSoundex"/>
+<fullyQualifiedTypeName name="com.jt.common.service.RedisService"/>
 </qualifiedTypeNameHistroy>
